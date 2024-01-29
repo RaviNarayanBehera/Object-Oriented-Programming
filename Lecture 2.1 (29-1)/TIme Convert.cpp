@@ -15,5 +15,6 @@ main()
 	ss = time % 60;
 	
 	cout<<"Convert Time into HH:MM:SS"<<endl;
-	cout<<"\t\t   "<<hh<<":"<<mm<<":"<<ss;
+	cout<<hh<<":"<<mm<<":"<<ss<<endl;
+	cout<<hh<<" hr : "<<mm<<" min : "<<ss<<" sec";
 }
