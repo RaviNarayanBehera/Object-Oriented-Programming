@@ -3,7 +3,8 @@ using namespace std;
 
 class CRS
 {
-	int id,age,mobile_number,simcard_validity;
+	int id,age,simcard_validity;
+	long long mobile_number;
 	string name,city,telecom_brand_name;
 	
 	public :
