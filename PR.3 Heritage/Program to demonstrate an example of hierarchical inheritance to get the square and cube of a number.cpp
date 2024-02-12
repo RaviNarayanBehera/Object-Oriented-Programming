@@ -33,7 +33,7 @@ class Cube : public Main
 	}	
 };
 
-int main()
+main()
 {
 	Square s1;
 	Cube c1;
