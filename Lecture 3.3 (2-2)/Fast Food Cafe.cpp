@@ -11,10 +11,7 @@ class Cafe
 		Cafe()
 		{
 			cout<<"Welcome To Fast Food Cafe"<<endl;
-		}
 		
-		void input()
-		{
 			cout<<"Enter id : ";
 			cin>>id;
 			cin.ignore();
@@ -36,10 +33,7 @@ class Cafe
 			
 			cout<<endl;
 			
-		}
 		
-		void output()
-		{
 			cout<<"Cafe ID : "<<id<<endl;
 			cout<<"Cafe's Name : "<<name<<endl;
 			cout<<"Cafe's Type : "<<type<<endl;
@@ -56,6 +50,5 @@ main()
 {
 	Cafe c1;
 	
-	c1.input();	
-	c1.output();
+	
 }
