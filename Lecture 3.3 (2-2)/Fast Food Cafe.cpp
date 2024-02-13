@@ -49,6 +49,4 @@ class Cafe
 main()
 {
 	Cafe c1;
-	
-	
 }
