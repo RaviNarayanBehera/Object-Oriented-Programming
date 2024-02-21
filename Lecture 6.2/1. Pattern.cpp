@@ -1,19 +1,28 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-main()
+main() 
 {
-	int i,j,k;
-	
-	for(i=1; i<=5; i++)
+    for(int i=0; i<5; i++) 
 	{
-		cout<<i<<" ";
-		k=i;
-		for(j=5; j>6-i; j--)
+        for(int j=0; j<=i; j++) 
 		{
-			k = (k-1)+j;
-			cout<<k<<" ";
-		}
-		cout<<endl;
-	}
+            int x = 0;
+            for(int k=0; k<j; k++) 
+			{
+                x = x + 5 - k;
+            }
+            if(j%2==0) 
+			{
+                cout << x + i - j + 1 << " ";
+            } 
+			else
+			{
+                cout << x + 5 - i << " ";
+            }
+        }
+        cout << endl;
+    }
 }
+
+
